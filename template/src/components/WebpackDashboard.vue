@@ -2,7 +2,7 @@
   <div class="vue-webpack-dashboard">
     <div class="pane-toolbar">
       <VueIcon icon="dashboard"/>
-      <div class="title">{{ $t('org.vue.vue-webpack.dashboard.title') }}</div>
+      <div class="title">\{{ $t('org.vue.vue-webpack.dashboard.title') }}</div>
 
       <template
         v-if="mode === 'serve'"
@@ -24,7 +24,7 @@
         v-if="mode !== 'serve' && modernMode"
         v-model="showModernBuild"
       >
-        {{ $t('org.vue.vue-webpack.modern-mode') }}
+        \{{ $t('org.vue.vue-webpack.modern-mode') }}
       </VueSwitch>
 
       <VueSelect v-model="sizeField">

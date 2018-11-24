@@ -3,75 +3,75 @@
     <div class="content">
       <div class="info-block status">
         <div class="label">
-          {{ $t('org.vue.st.{{cmd}}.build-status.labels.status') }}
+          \{{ $t('org.vue.st.cmd.build-status.labels.status') }}
         </div>
-        <div class="value">{{ $t(`org.vue.st.{{cmd}}.build-status.${status || 'Idle'}`) }}</div>
+        <div class="value">\{{ $t(`org.vue.st.{{cmd}}.build-status.${status || 'Idle'}`) }}</div>
       </div>
       <div class="info-block total">
         <div class="label">
-          {{ $t('org.vue.st.{{cmd}}.build-status.labels.total') }}
+          \{{ $t('org.vue.st.cmd.build-status.labels.total') }}
         </div>
-        <div class="value">{{ total }}</div>
+        <div class="value">\{{ total }}</div>
       </div>
       <div class="info-block skipped">
         <div class="label">
-          {{ $t('org.vue.st.{{cmd}}.build-status.labels.skipped') }}
+          \{{ $t('org.vue.st.cmd.build-status.labels.skipped') }}
         </div>
-        <div class="value">{{ skipped }}</div>
+        <div class="value">\{{ skipped }}</div>
       </div>
       <div class="info-block processed">
         <div class="label">
-          {{ $t('org.vue.st.{{cmd}}.build-status.labels.processed') }}
+          \{{ $t('org.vue.st.cmd.build-status.labels.processed') }}
         </div>
-        <div class="value">{{ processed }}</div>
+        <div class="value">\{{ processed }}</div>
       </div>
       <div class="info-block passed">
         <div class="label">
-          {{ $t('org.vue.st.{{cmd}}.build-status.labels.passed') }}
+          \{{ $t('org.vue.st.cmd.build-status.labels.passed') }}
         </div>
-        <div class="value">{{ passed }}</div>
+        <div class="value">\{{ passed }}</div>
       </div>
       <div class="info-block failed">
         <div class="label">
-          {{ $t('org.vue.st.{{cmd}}.build-status.labels.failed') }}
+          \{{ $t('org.vue.st.cmd.build-status.labels.failed') }}
         </div>
-        <div class="value">{{ failed }}</div>
+        <div class="value">\{{ failed }}</div>
       </div>
       <div class="info-block fixtures">
         <div class="label">
-          {{ $t('org.vue.st.{{cmd}}.build-status.labels.fixtures') }}
+          \{{ $t('org.vue.st.cmd.build-status.labels.fixtures') }}
         </div>
-        <div class="value">{{ fixtures }}</div>
+        <div class="value">\{{ fixtures }}</div>
       </div>
       <div class="info-block warnings">
         <div class="label">
-          {{ $t('org.vue.st.{{cmd}}.build-status.labels.warnings') }}
+          \{{ $t('org.vue.st.cmd.build-status.labels.warnings') }}
         </div>
-        <div class="value">{{ warnings }}</div>
+        <div class="value">\{{ warnings }}</div>
       </div>
       <div class="info-block duration">
         <div class="label">
-          {{ $t('org.vue.st.{{cmd}}.build-status.labels.duration') }}
+          \{{ $t('org.vue.st.cmd.build-status.labels.duration') }}
         </div>
-        <div class="value">{{ duration }}</div>
+        <div class="value">\{{ duration }}</div>
       </div>
       <div class="info-block startTime">
         <div class="label">
-          {{ $t('org.vue.st.{{cmd}}.build-status.labels.startTime') }}
+          \{{ $t('org.vue.st.cmd.build-status.labels.startTime') }}
         </div>
-        <div class="value">{{ startTime }}</div>
+        <div class="value">\{{ startTime }}</div>
       </div>
       <div class="info-block endTime">
         <div class="label">
-          {{ $t('org.vue.st.{{cmd}}.build-status.labels.endTime') }}
+          \{{ $t('org.vue.st.cmd.build-status.labels.endTime') }}
         </div>
-        <div class="value">{{ endTime }}</div>
+        <div class="value">\{{ endTime }}</div>
       </div>
       <div class="info-block userAgents">
         <div class="label">
-          {{ $t('org.vue.st.{{cmd}}.build-status.labels.userAgents') }}
+          \{{ $t('org.vue.st.cmd.build-status.labels.userAgents') }}
         </div>
-        <div class="value">{{ userAgents }}</div>
+        <div class="value">\{{ userAgents }}</div>
       </div>
     </div>
   </div>

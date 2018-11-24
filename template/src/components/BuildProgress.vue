@@ -66,7 +66,7 @@
       </div>
 
       <div class="operations">
-        <span v-if="operations">{{ operations }}</span>
+        <span v-if="operations">\{{ operations }}</span>
         <VueIcon
           v-else
           icon="more_horiz"

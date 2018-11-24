@@ -2,7 +2,7 @@
   <div class="asset-list list-block">
     <div class="content">
       <div class="title">
-        {{ $t('org.vue.vue-webpack.dashboard.asset-list.title') }}
+        \{{ $t('org.vue.vue-webpack.dashboard.asset-list.title') }}
       </div>
 
       <VueIcon
@@ -14,7 +14,7 @@
       <template v-else>
         <div class="headers">
           <div class="header"></div>
-          <div class="header size-field">{{ sizeField }}</div>
+          <div class="header size-field">\{{ sizeField }}</div>
           <div class="header">Global</div>
           <div class="header">3G Slow</div>
           <div class="header">3G Fast</div>

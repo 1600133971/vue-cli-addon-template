@@ -2,7 +2,7 @@
   <div class="vue-webpack-dashboard">
     <div class="pane-toolbar">
       <VueIcon icon="dashboard"/>
-      <div class="title">{{ $t('org.vue.st.{{cmd}}.dashboard.title') }}</div>
+      <div class="title">\{{ $t('org.vue.st.cmd.dashboard.title') }}</div>
 
       <VueButton
         class="icon-button"

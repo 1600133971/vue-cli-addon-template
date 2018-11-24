@@ -2,13 +2,13 @@
   <div class="vue-webpack-analyzer">
     <div class="pane-toolbar">
       <VueIcon icon="donut_large"/>
-      <div class="title">{{ $t('org.vue.vue-webpack.analyzer.title') }}</div>
+      <div class="title">\{{ $t('org.vue.vue-webpack.analyzer.title') }}</div>
 
       <VueSwitch
         v-if="mode !== 'serve' && modernMode"
         v-model="showModernBuild"
       >
-        {{ $t('org.vue.vue-webpack.modern-mode') }}
+        \{{ $t('org.vue.vue-webpack.modern-mode') }}
       </VueSwitch>
 
       <template v-if="currentTree">
@@ -90,19 +90,19 @@
             class="stats size"
             :class="{ selected: sizeField === 'stats' }"
           >
-            {{ $t('org.vue.vue-webpack.sizes.stats') }}: {{ describedModule.size.stats | size('B')}}
+            \{{ $t('org.vue.vue-webpack.sizes.stats') }}: \{{ describedModule.size.stats | size('B')}}
           </div>
           <div
             class="parsed size"
             :class="{ selected: sizeField === 'parsed' }"
           >
-            {{ $t('org.vue.vue-webpack.sizes.parsed') }}: {{ describedModule.size.parsed | size('B')}}
+            \{{ $t('org.vue.vue-webpack.sizes.parsed') }}: \{{ describedModule.size.parsed | size('B')}}
           </div>
           <div
             class="gzip size"
             :class="{ selected: sizeField === 'gzip' }"
           >
-            {{ $t('org.vue.vue-webpack.sizes.gzip') }}: {{ describedModule.size.gzip | size('B')}}
+            \{{ $t('org.vue.vue-webpack.sizes.gzip') }}: \{{ describedModule.size.gzip | size('B')}}
           </div>
         </div>
       </div>
