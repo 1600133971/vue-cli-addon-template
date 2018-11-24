@@ -1,14 +1,14 @@
 {
-  "name": "vue-cli-addon-{{name}}",
+  "name": "{{name}}",
   "description": "vue-cli 3.x ui addon to your Vue Project",
   "author": "{{author}}",
   "version": "{{version}}",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/{{author}}/vue-cli-addon-{{name}}.git"
+    "url": "git+https://github.com/{{author}}/{{name}}.git"
   },
-  "homepage": "https://github.com/{{author}}/vue-cli-addon-{{name}}#readme",
+  "homepage": "https://github.com/{{author}}/{{name}}#readme",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"

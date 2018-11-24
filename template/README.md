@@ -1,4 +1,4 @@
-# vue-cli-addon-{{name}}
+# {{name}}
 
 ## Project setup
 ```
